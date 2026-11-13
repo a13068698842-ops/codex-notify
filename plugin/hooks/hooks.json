@@ -1,0 +1,7 @@
+{
+  "description": "Register this local desktop chat with Codex Notify when the runtime is available.",
+  "hooks": {
+    "SessionStart": [{ "hooks": [{ "type": "command", "command": "node \"${PLUGIN_ROOT}/scripts/register.mjs\"", "commandWindows": "node \"${PLUGIN_ROOT}\\scripts\\register.mjs\"", "timeout": 2 }] }],
+    "UserPromptSubmit": [{ "hooks": [{ "type": "command", "command": "node \"${PLUGIN_ROOT}/scripts/register.mjs\"", "commandWindows": "node \"${PLUGIN_ROOT}\\scripts\\register.mjs\"", "timeout": 2 }] }]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "codex-notify",
+  "version": "0.2.0",
+  "description": "Send questions from local Windows Codex chats to Feishu and return answers to the same chat",
+  "skills": "./skills/"
+}

@@ -1,0 +1,7 @@
+{
+  "rules": [
+    { "id": "terminal_question", "pattern": "[?？]+[\"'’”）)]*$" },
+    { "id": "zh_request", "pattern": "(?:^|[。；，,;]\\s*)(?:请(?:你)?(?:提供|选择|确认|补充|填写|告诉我|回复|回答)|需要你(?:提供|补充|确认|选择|填写))" },
+    { "id": "en_request", "pattern": "(?:^|[,;]\\s*|\\.\\s+)(?:please\\s+(?:provide|select|choose|confirm|specify|enter|tell me|reply with|answer)\\b|(?:select|choose)\\s+(?:one|a|an|the)\\b|which\\s+[^.!。！?？]+$)" }
+  ]
+}

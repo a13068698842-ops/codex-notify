@@ -1,0 +1,22 @@
+{
+  "name": "codex-notify",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "24.18.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "npm run build && node dist/src/runtime/cli.js watch"
+  },
+  "devDependencies": {
+    "@types/node": "24.6.0",
+    "typescript": "5.9.3"
+  },
+  "dependencies": {
+    "@larksuiteoapi/node-sdk": "1.76.0",
+    "https-proxy-agent": "7.0.6",
+    "qrcode-generator": "2.0.4"
+  }
+}
